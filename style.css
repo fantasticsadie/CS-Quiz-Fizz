@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: bold 21px lato, monospace;
+}
+body p, body h2 {
+  text-align: center;
+}
+body h2 {
+  color: #00F;
+}
+body h3 {
+  position: absolute;
+  text-transform: uppercase;
+}
+body button {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  border: none;
+  background: #00F;
+  color: #FFF;
+  padding: 5px 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+body input {
+  type:list-group-item input;
+  border: 5px solid #000;
+}
+
+@media (max-width: 600px) {
+  body {
+    font: bold 16px lato, monospace;
+  }
+}
